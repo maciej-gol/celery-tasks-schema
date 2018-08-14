@@ -127,7 +127,9 @@
     "test_app.schema.tasks.test": {
         "args": [
             "a",
-            "b"
+            "b",
+            "c",
+            "d"
         ],
         "defaults": null,
         "kwonlyargs": [],
