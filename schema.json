@@ -1,0 +1,138 @@
+{
+    "celery.accumulate": {
+        "args": [
+            "self"
+        ],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": "args",
+        "varkwargs": "kwargs"
+    },
+    "celery.backend_cleanup": {
+        "args": [],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    },
+    "celery.chain": {
+        "args": [],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": "args",
+        "varkwargs": "kwargs"
+    },
+    "celery.chord": {
+        "args": [
+            "self",
+            "header",
+            "body",
+            "partial_args",
+            "interval",
+            "countdown",
+            "max_retries",
+            "eager"
+        ],
+        "defaults": [
+            "tuple:()",
+            "NoneType:None",
+            "int:1",
+            "NoneType:None",
+            "bool:False"
+        ],
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": "kwargs"
+    },
+    "celery.chord_unlock": {
+        "args": [
+            "self",
+            "group_id",
+            "callback",
+            "interval",
+            "max_retries",
+            "result",
+            "Result",
+            "GroupResult",
+            "result_from_tuple"
+        ],
+        "defaults": [
+            "NoneType:None",
+            "NoneType:None",
+            "NoneType:None",
+            "celery.result:AsyncResult",
+            "celery.result:GroupResult",
+            "celery.result:result_from_tuple"
+        ],
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": "kwargs"
+    },
+    "celery.chunks": {
+        "args": [
+            "task",
+            "it",
+            "n"
+        ],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    },
+    "celery.group": {
+        "args": [
+            "self",
+            "tasks",
+            "result",
+            "group_id",
+            "partial_args",
+            "add_to_parent"
+        ],
+        "defaults": [
+            "bool:True"
+        ],
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    },
+    "celery.map": {
+        "args": [
+            "task",
+            "it"
+        ],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    },
+    "celery.starmap": {
+        "args": [
+            "task",
+            "it"
+        ],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    },
+    "test_app.schema.tasks.test": {
+        "args": [
+            "a",
+            "b"
+        ],
+        "defaults": null,
+        "kwonlyargs": [],
+        "kwonlydefaults": null,
+        "varargs": null,
+        "varkwargs": null
+    }
+}
