@@ -1,0 +1,129 @@
+celery.accumulate:
+- default: null
+  kind: var_positional
+  name: args
+- default: null
+  kind: var_keyword
+  name: kwargs
+celery.backend_cleanup: []
+celery.chain:
+- default: null
+  kind: var_positional
+  name: args
+- default: null
+  kind: var_keyword
+  name: kwargs
+celery.chord:
+- default: null
+  kind: positional_or_keyword
+  name: header
+- default: null
+  kind: positional_or_keyword
+  name: body
+- default: tuple:()
+  kind: positional_or_keyword
+  name: partial_args
+- default: NoneType:None
+  kind: positional_or_keyword
+  name: interval
+- default: int:1
+  kind: positional_or_keyword
+  name: countdown
+- default: NoneType:None
+  kind: positional_or_keyword
+  name: max_retries
+- default: bool:False
+  kind: positional_or_keyword
+  name: eager
+- default: null
+  kind: var_keyword
+  name: kwargs
+celery.chord_unlock:
+- default: null
+  kind: positional_or_keyword
+  name: group_id
+- default: null
+  kind: positional_or_keyword
+  name: callback
+- default: NoneType:None
+  kind: positional_or_keyword
+  name: interval
+- default: NoneType:None
+  kind: positional_or_keyword
+  name: max_retries
+- default: NoneType:None
+  kind: positional_or_keyword
+  name: result
+- default: celery.result:AsyncResult
+  kind: positional_or_keyword
+  name: Result
+- default: celery.result:GroupResult
+  kind: positional_or_keyword
+  name: GroupResult
+- default: celery.result:result_from_tuple
+  kind: positional_or_keyword
+  name: result_from_tuple
+- default: null
+  kind: var_keyword
+  name: kwargs
+celery.chunks:
+- default: null
+  kind: positional_or_keyword
+  name: task
+- default: null
+  kind: positional_or_keyword
+  name: it
+- default: null
+  kind: positional_or_keyword
+  name: n
+celery.group:
+- default: null
+  kind: positional_or_keyword
+  name: tasks
+- default: null
+  kind: positional_or_keyword
+  name: result
+- default: null
+  kind: positional_or_keyword
+  name: group_id
+- default: null
+  kind: positional_or_keyword
+  name: partial_args
+- default: bool:True
+  kind: positional_or_keyword
+  name: add_to_parent
+celery.map:
+- default: null
+  kind: positional_or_keyword
+  name: task
+- default: null
+  kind: positional_or_keyword
+  name: it
+celery.starmap:
+- default: null
+  kind: positional_or_keyword
+  name: task
+- default: null
+  kind: positional_or_keyword
+  name: it
+test_app.schema.tasks.test:
+- default: null
+  kind: positional_or_keyword
+  name: a
+- default: null
+  kind: positional_or_keyword
+  name: b
+- default: null
+  kind: positional_or_keyword
+  name: c
+- default: null
+  kind: positional_or_keyword
+  name: d
+test_app.schema.tasks.test_new:
+- default: null
+  kind: positional_or_keyword
+  name: a
+- default: null
+  kind: positional_or_keyword
+  name: b
+
